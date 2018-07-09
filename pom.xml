@@ -8,11 +8,15 @@
     <artifactId>dummy-app</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <dummy.version>${project.version}</dummy.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>dummy-org-api</groupId>
             <artifactId>dummy-api</artifactId>
-            <version>${project.version}</version>
+            <version>${dummy.version}</version>
         </dependency>
     </dependencies>
     <developers>

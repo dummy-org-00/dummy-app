@@ -4,7 +4,7 @@
 
     <groupId>dummy-org-app</groupId>
     <artifactId>dummy-app</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <properties>
         <dummy.version>${project.version}</dummy.version>
@@ -27,7 +27,7 @@
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/dummy-org-00/dummy-app.git</developerConnection>
         <url>https://github.com/dummy-org-00/dummy-app</url>
-        <tag>release-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <licenses>

@@ -42,7 +42,7 @@
         <repository>
             <id>bintray-dummy-releases</id>
             <name>bintray-dummy-releases</name>
-            <url>https://api.bintray.com/maven/stariy95/releases/dummy-api/;publish=0</url>
+            <url>https://api.bintray.com/maven/stariy95/releases/dummy-app/;publish=0</url>
         </repository>
     </distributionManagement>
 

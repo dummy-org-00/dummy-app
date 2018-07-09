@@ -15,5 +15,33 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+    <developers>
+        <developer>
+            <id>dummy-org-00</id>
+            <name>Dummy Org</name>
+        </developer>
+    </developers>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com:dummy-org-00/dummy-api.git</developerConnection>
+        <url>https://github.com/dummy-org-00/dummy-api</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0 License</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-dummy-releases</id>
+            <name>bintray-dummy-releases</name>
+            <url>https://api.bintray.com/maven/stariy95/releases/dummy-api/;publish=0</url>
+        </repository>
+    </distributionManagement>
 
 </project>

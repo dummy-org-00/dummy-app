@@ -23,8 +23,8 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com:dummy-org-00/dummy-api.git</developerConnection>
-        <url>https://github.com/dummy-org-00/dummy-api</url>
+        <developerConnection>scm:git:ssh://git@github.com/dummy-org-00/dummy-app.git</developerConnection>
+        <url>https://github.com/dummy-org-00/dummy-app</url>
         <tag>HEAD</tag>
     </scm>
 
